@@ -72,7 +72,12 @@
 │   └── submit
 ```
 
-
+（3）下载
++ [nezha-base-chinese 权重下载](https://github.com/lonePatient/NeZha_Chinese_PyTorch)  
++ [bert-base-chinese 权重下载](https://drive.google.com/file/d/1rpWe5ec_buORvu8-ezvvAk9jrUZkOsIr/view?usp=sharing)  
++ [NEZHA预训练模型下载](https://drive.google.com/file/d/121KlWkc4PPOfjojFo-4LAYSNKpgigMQ-/view?usp=sharing)  
++ [Bert 预训练模型下载](https://drive.google.com/file/d/1rpWe5ec_buORvu8-ezvvAk9jrUZkOsIr/view?usp=sharing)  
++ [Word2vec和Fasttext训练好的词向量下载](https://drive.google.com/file/d/1jcQR4E7AvkYwiGj8SzI6D4TmKt4-5Wqa/view?usp=sharing)  
 
 # 2 引言
 
