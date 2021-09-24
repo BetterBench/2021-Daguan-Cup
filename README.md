@@ -215,11 +215,11 @@
   + 加入主办方提供的未标注数据，足足有72G，如果时间允许，设备足够高，预训练充分后，这将会带来巨大的增益。
   + 通过Bert实现同义词替换（思路来源：天池-全球人工智能大赛赛道一-rank2-炼丹术士）
 
- ![tong](https://pic1.zhimg.com/80/v2-d373d0ac9cdb1741c70d6c5f9fa4da04_720w.jpg)
+ ![tong](https://img-blog.csdnimg.cn/b734261699f040f5ad78c8f1ef1d8b94.png?x-oss-process=image/watermark,type_ZHJvaWRzYW5zZmFsbGJhY2s,shadow_50,text_Q1NETiBAQmV0dGVyIEJlbmNo,size_20,color_FFFFFF,t_70,g_se,x_16#pic_center)
 
 + 问题优化（思路来源:[小布助手问题匹配-冠军方案](https://yiwise-algo.yuque.com/docs/share/5a1e3b76-4d04-4127-979a-496d7bc8c1b8?#%20%E3%80%8A%E7%9F%AD%E6%96%87%E6%9C%AC%E7%9B%B8%E4%BC%BC%E5%8C%B9%E9%85%8D%E3%80%8B)）
 
-![qe](https://pic3.zhimg.com/80/v2-2462951e02f28351f5821209b69fd2ae_720w.jpg)
+![qe](https://img-blog.csdnimg.cn/ccfd61aef0574b859cbb156265a0dfc5.jpg?x-oss-process=image/watermark,type_ZHJvaWRzYW5zZmFsbGJhY2s,shadow_50,text_Q1NETiBAQmV0dGVyIEJlbmNo,size_20,color_FFFFFF,t_70,g_se,x_16#pic_center)
 
 - 微调
   + EDA 数据增广在脱敏数据上表现不佳，但是AEDA这个方法还未尝试过，就是在句子中随机插入标点符号。（来源资料：https://mp.weixin.qq.com/s/R6uDbn3CqxFkOye73Rqpqg）
