@@ -253,3 +253,28 @@
     - https://github.com/649453932/Bert-Chinese-Text-Classification-Pytorch
   - ConVBert
     - https://github.com/codertimo/ConveRT-pytorch
+   
+  # 6 参考资料
+
++ [AEDA:随机插入符号的数据增强](https://mp.weixin.qq.com/s/R6uDbn3CqxFkOye73Rqpqg)  
+
++ [天池入门赛－新闻文本分类官网首页](https://tianchi.aliyun.com/competition/entrance/531810/introduction)  
++ [天池－全球人工智能大赛赛道一官网首页](https://tianchi.aliyun.com/competition/entrance/531852/introduction?spm=5176.12281957.1004.6.38b03eafApg5Vq)  
++ [天池－全球人工智能大赛赛道三官网首页](https://tianchi.aliyun.com/competition/entrance/531851/information)  
++ [天池－全球人工智能大赛赛道一-rank 4详解博客](http://www.nsytsqdtn.cn/2021/06/10/gaic1/)  
++ [天池－全球人工智能大赛赛道一-HAN 和Capsule网络开源方案-github](https://github.com/nsytsqdtn/competition-baseline/tree/main/%E5%85%A8%E7%90%83%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E6%8A%80%E6%9C%AF%E5%88%9B%E6%96%B0%E5%A4%A7%E8%B5%9B/%E8%B5%9B%E9%81%93%E4%B8%80)  
++ [天池－全球人工智能大赛赛道一NEZHA方案-github](https://github.com/daniellibin/gaiic2021_track3_querySim)  
+
+- [天池－全球人工智能大赛赛道一Seq2Seq方案-github](https://github.com/lollipop97/2021-GAIIC-phase1-seq2seq)  
+- [天池－全球人工智能大赛赛道一-TextCNN +encoder方案 ](https://blog.51cto.com/u_15194128/2795986)  
+- [天池－全球人工智能大赛赛道一-Rank3 方案博客详解](https://yihaochan.github.io/post/c516f0e3.html#more)  
+- [天池－全球人工智能大赛赛道一周周星方案1](https://github.com/chizhu/tianchi-gaic-track3-share)  
+- [天池－全球人工智能大赛赛道一周星星方案2](https://github.com/lonePatient/2021-GAIIC-Track1-idea)  
+- 新闻文本分类-Rank 1 [博客](https://tianchi.aliyun.com/forum/postDetail?postId=128789) [代码](https://github.com/kangyishuai/NEWS-TEXT-CLASSIFICATION?spm=5176.21852664.0.0.36fa49f5I7OwXj)  
+- 新闻文本分类-Rank5 [博客](https://tianchi.aliyun.com/forum/postDetail?postId=132549) [代码](https://github.com/Goldgaruda/Tianchi-NLP-News-Text-Classification-Rank-5-solution?spm=5176.21852664.0.0.772a5d31tOpZ4r)  
+- 新闻文本分类-Rank4 [博客](https://zhuanlan.zhihu.com/p/231180925?spm=5176.21852664.0.0.57183248jdRAwm) [代码](https://github.com/MM-IR/rank4_NLP_textclassification?spm=5176.21852664.0.0.57183248jdRAwm)  
+- 新闻文本分类-Rank11 [代码](https://github.com/NorthblueM/NLP_NewsTextClassification)  
+- 新闻文本分类-Rank6 [博客](https://tianchi.aliyun.com/forum/postDetail?postId=132518) [代码](https://github.com/Warrenheww/rank6_NLP_newstextclassification?spm=5176.21852664.0.0.23e119a2HVLK0q)  
+- [天池－全球人工智能大赛赛道三 RANK1](https://github.com/nilboy/gaic_track3_pair_sim)  
+- [天池－全球人工智能大赛赛道三 RANK3]( https://github.com/daniellibin/gaiic2021_track3_querySim?spm=5176.21852664.0.0.3edb2448GYhSKg)  
+- [天池－全球人工智能大赛赛道三 NEZHA-Pytorch方案](https://github.com/Jackory/TCGAIIC)
