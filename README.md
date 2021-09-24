@@ -78,16 +78,21 @@
 + [NEZHA预训练模型下载](https://drive.google.com/file/d/121KlWkc4PPOfjojFo-4LAYSNKpgigMQ-/view?usp=sharing)  
 + [Bert 预训练模型下载](https://drive.google.com/file/d/1rpWe5ec_buORvu8-ezvvAk9jrUZkOsIr/view?usp=sharing)  
 + [Word2vec和Fasttext训练好的词向量下载](https://drive.google.com/file/d/1jcQR4E7AvkYwiGj8SzI6D4TmKt4-5Wqa/view?usp=sharing)  
++
+（4）博客详细介绍  
+[【2021 第五届“达观杯” 基于大规模预训练模型的风险事件标签识别】1 初赛Rank12的总结与分析](https://zhuanlan.zhihu.com/p/412897603/)  
+[【2021 第五届“达观杯” 基于大规模预训练模型的风险事件标签识别】2 DPCNN、HAN、RCNN等传统深度学习方案](https://zhuanlan.zhihu.com/p/413250318)  
+[【2021 第五届“达观杯” 基于大规模预训练模型的风险事件标签识别】3Bert和Nezha方案](https://zhuanlan.zhihu.com/p/413475410)  
+
 
 # 2 引言
-
-
 
 ​	2021年的暑假，与博远、禹飞、沛恒刚打完科大讯飞的比赛，又续上类似的赛题2021的”达观杯“，继续经过一个多月，连续的战斗，比赛终于落下帷幕。A榜我们最高成绩可以达到0.62+，原本可以排名到第7，但是提交次数限制，未能提交最高得分文件。导致A榜只达到第12名。以及对于这种赛制的不理解，导致B榜滑落到21名。对我们的打击巨大。第一次打这种赛制的比赛，被恶心到了。但是也是学习到了很多东西，吸取教训，下次还能再接再厉。
 
 ​	该赛题和[2021年天池举办的全球人工智能大赛](https://tianchi.aliyun.com/competition/entrance/531852/introduction?spm=5176.12281957.1004.6.38b03eafApg5Vq)的赛道一几乎一样，就是标签性质不一样，天池赛题是多标签多分类，该赛题是多分类单标签。和[赛道三](https://tianchi.aliyun.com/competition/entrance/531851/information)也是类似，以及天池举办的新手赛-[新闻文本分类](https://tianchi.aliyun.com/competition/entrance/531810/introduction)都是一样的性质，脱敏数据的文本分类赛题。这个比赛我们参考了赛道一和赛道三的许多资料和方案。
 
 ​	7月26号已经开赛，8月16号这天才决定参赛，比赛花了36天。比赛过程分为三个阶段，第阶段钻研传统DL模型、第二阶段使用NEZHA和Bert实现预训练模型、第三阶段微调和预训练改进，以及多种提分技巧的应用。第一阶段，完全不需要云服务器，我本地的显卡就足够使用，但是来到第二阶段的开始使用预训练模型，我们必须使用恒源云上更大显存，更快运行速度的3090云服务器。苦战一个月，每天100左右的开销，邀请了所有周围的同学朋友，帮忙注册并认证，才送了不少的使用券，比赛的最后有一个星期，几个程序在跑，GPU不够用，我们成绩达到0.62+，排名也来得历史最高第三，租下了一个包周的3090连续跑了三天。队友还租的是恒源云的V100S，32G显存的显卡，跑nezha_large，都占满了，跑了好几天，开销巨大，预训练模型成本太高了，GPU也实在是太贵了。
+
 
 # 3 方案
 
