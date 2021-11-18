@@ -96,7 +96,7 @@
 
 # 3 方案
 
-![3](https://pic3.zhimg.com/80/v2-d7ac2c039d7764ce56ffbf43d2a0508e_720w.jpg)
+![3](https://img-blog.csdnimg.cn/03cf355f9a61447191ec67a16215dc49.png?x-oss-process=image/watermark,type_ZHJvaWRzYW5zZmFsbGJhY2s,shadow_50,text_Q1NETiBAQmV0dGVyIEJlbmNo,size_20,color_FFFFFF,t_70,g_se,x_16#pic_center)
 
 ## 2.1 传统DL方案
 
